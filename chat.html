@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      type="text/javascript"
+      src="https://cdn.scaledrone.com/scaledrone.min.js"
+    ></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Nintendo Chatter</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>NINTENDO CHATTER!</h1>
+    <div class="members"></div>
+    <div class="container">
+      <div class="messages"></div>
+    </div>
+    <form class="message-form" onsubmit="return false;">
+      <input
+        class="message-form_input"
+        placeholder="Type a message..."
+        type="text"
+      />
+      <button class="message-form_submit" type="submit">Send</button>
+    </form>
+    <form class="exit-form" action="index.html">
+      <button class="message-form_exit" type="submit">Exit chat room</button>
+    </form>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/dom.js"></script>
+  </body>
+</html>
