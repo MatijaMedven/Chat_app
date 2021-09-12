@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   max-height: 100vh;
-  background-image: url("/img/nintendo_space.jpg");
+  background-image: url("../img/nintendo_space.jpg");
 }
 
 .members {
@@ -24,7 +24,7 @@ body {
   padding: 15px;
   overflow: auto;
   height: 50vh;
-  background-image: url("/img/nes_messages.png");
+  background-image: url("../img/nes_messages.png");
   background-size: cover;
   /* background-attachment: fixed; */
   background-position: top;
